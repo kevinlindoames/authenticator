@@ -8,10 +8,10 @@ Rails.application.routes.draw do
 
   root to: "main#hello"
   
-  get "cursos/gratuitos"
+  
   # cursos_controller CrusosController def gratuitos end
   
-  get "cursos", to: "courses#index"
+  get "saludo", to: "main#hi"
 
 end
 
