@@ -13,7 +13,7 @@ links.forEach(function(link) {
         content.classList.add("animate__animated");
 
         setTimeout(function(){
-            location.href = "../";           
+            location.href = "/boletines/index.html";           
             
         },600);
             return false;
