@@ -4,15 +4,15 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  get "hola", to: "main#hello"
-
-  root to: "main#hello"
-  
+ 
   
   # cursos_controller CrusosController def gratuitos end
+  get "hola", to:"main#helo"
+
+  root  to: "main#hello"
   
   get "saludo", to: "main#hi"
-
+  post "hi", to: "main#greetings"
 end
 
 
